@@ -45,7 +45,7 @@ public class Player{
 	@Override
 	public int hashCode()
 	{
-			return Objects.hash(name, money, cars); // 1 pont
+			return Objects.hash(name, money, cars);
 	}
 	
 	public void buyCar(Car car) throws VehicleException

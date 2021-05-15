@@ -41,11 +41,11 @@ public class Car extends Vehicle implements Comparable<Car>{
 	@Override
 	public int compareTo(Car that)
 	{
-			int compareResult = Integer.compare(this.maxSpeed, that.maxSpeed); // 1 pont
+			int compareResult = Integer.compare(this.maxSpeed, that.maxSpeed);
 
 			if (compareResult == 0)
 			{
-					return Integer.compare(this.price, that.price); // 1 pont
+					return Integer.compare(this.price, that.price);
 			}
 			else return compareResult;
 	}
